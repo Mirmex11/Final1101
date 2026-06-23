@@ -1,0 +1,28 @@
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\bin\Release\net8.0\KnizhnyMir.DataAccess.deps.json
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\bin\Release\net8.0\KnizhnyMir.DataAccess.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\bin\Release\net8.0\KnizhnyMir.DataAccess.pdb
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\bin\Release\net8.0\KnizhnyMir.DataAccess.xml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\refint\KnizhnyMir.DataAccess.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.xml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.pdb
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\ref\KnizhnyMir.DataAccess.dll
+D:\Final1101\src\KnizhnyMir.DataAccess\bin\Release\net8.0\KnizhnyMir.DataAccess.deps.json
+D:\Final1101\src\KnizhnyMir.DataAccess\bin\Release\net8.0\KnizhnyMir.DataAccess.dll
+D:\Final1101\src\KnizhnyMir.DataAccess\bin\Release\net8.0\KnizhnyMir.DataAccess.pdb
+D:\Final1101\src\KnizhnyMir.DataAccess\bin\Release\net8.0\KnizhnyMir.DataAccess.xml
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.csproj.AssemblyReference.cache
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.AssemblyInfoInputs.cache
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.AssemblyInfo.cs
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.csproj.CoreCompileInputs.cache
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.dll
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\refint\KnizhnyMir.DataAccess.dll
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.xml
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\KnizhnyMir.DataAccess.pdb
+D:\Final1101\src\KnizhnyMir.DataAccess\obj\Release\net8.0\ref\KnizhnyMir.DataAccess.dll

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KnizhnyMir.Api</name>
+    </assembly>
+    <members>
+        <member name="T:KnizhnyMir.Api.Controllers.AuthController">
+            <summary>API авторизации пользователей.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.AuthController.#ctor(KnizhnyMir.DataAccess.Services.AuthService)">
+            <summary>API авторизации пользователей.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.AuthController.Login(KnizhnyMir.Api.Dtos.LoginRequest)">
+            <summary>Выполняет вход по логину и паролю.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Api.Controllers.LookupController">
+            <summary>API для получения справочных данных.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.LookupController.#ctor(KnizhnyMir.DataAccess.Repositories.LookupRepository)">
+            <summary>API для получения справочных данных.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.LookupController.GetCategories">
+            <summary>Возвращает список категорий.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.LookupController.GetManufacturers">
+            <summary>Возвращает список производителей.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.LookupController.GetOrderStatuses">
+            <summary>Возвращает список статусов заказа.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Api.Controllers.OrdersController">
+            <summary>API для получения и редактирования заказов.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.OrdersController.#ctor(KnizhnyMir.DataAccess.Services.OrderService)">
+            <summary>API для получения и редактирования заказов.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.OrdersController.GetAll">
+            <summary>Возвращает список всех заказов.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.OrdersController.GetByNumber(System.Int32)">
+            <summary>Возвращает заказ по номеру.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.OrdersController.Create(KnizhnyMir.Api.Dtos.CreateOrderRequest)">
+            <summary>Создаёт новый заказ.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.OrdersController.Update(System.Int32,KnizhnyMir.Api.Dtos.UpdateOrderRequest)">
+            <summary>Обновляет дату доставки и статус заказа.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Api.Controllers.ProductsController">
+            <summary>API для получения данных о товарах.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.ProductsController.#ctor(KnizhnyMir.DataAccess.Services.ProductService)">
+            <summary>API для получения данных о товарах.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.ProductsController.GetAll">
+            <summary>Возвращает список всех товаров.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Controllers.ProductsController.GetByArticle(System.String)">
+            <summary>Возвращает товар по артикулу.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Api.Dtos.LoginRequest">
+            <summary>Запрос на вход в систему.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Dtos.LoginRequest.#ctor(System.String,System.String)">
+            <summary>Запрос на вход в систему.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Api.Dtos.OrderItemRequest">
+            <summary>Позиция заказа в запросе на создание заказа.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Dtos.OrderItemRequest.#ctor(System.String,System.Int32)">
+            <summary>Позиция заказа в запросе на создание заказа.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Api.Dtos.CreateOrderRequest">
+            <summary>Запрос на создание нового заказа.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Dtos.CreateOrderRequest.#ctor(System.Nullable{System.Int32},System.Collections.Generic.List{KnizhnyMir.Api.Dtos.OrderItemRequest})">
+            <summary>Запрос на создание нового заказа.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Api.Dtos.UpdateOrderRequest">
+            <summary>Запрос на обновление даты доставки и статуса заказа.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Api.Dtos.UpdateOrderRequest.#ctor(System.Nullable{System.DateTime},System.Int32)">
+            <summary>Запрос на обновление даты доставки и статуса заказа.</summary>
+        </member>
+    </members>
+</doc>

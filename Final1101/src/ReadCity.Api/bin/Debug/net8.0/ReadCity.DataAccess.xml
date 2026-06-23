@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReadCity.DataAccess</name>
+    </assembly>
+    <members>
+        <member name="T:ReadCity.DataAccess.ConnectionFactory.IDbConnectionFactory">
+            <summary>
+            Фабрика подключения к базе данных.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.ConnectionFactory.MSSqlConnectionFactory">
+            <summary>
+            Фабрика подключений к серверу.
+            </summary>
+            <param name="connectionString"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.ConnectionFactory.MSSqlConnectionFactory.#ctor(System.String)">
+            <summary>
+            Фабрика подключений к серверу.
+            </summary>
+            <param name="connectionString"></param>
+        </member>
+        <member name="T:ReadCity.DataAccess.DatabaseConfig">
+            <summary>
+            Настройки подключения к базе данных.
+            </summary>
+        </member>
+        <member name="M:ReadCity.DataAccess.DatabaseConfig.CreateFactory">
+            <summary>
+            Фабрика подключений к серверу.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ReadCity.DataAccess.DatabaseConfig.TestConnection">
+            <summary>
+            Проверка подключения к серверу.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ReadCity.DataAccess.Models.Category">
+            <summary>
+            Категория товара.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Models.Manufacturer">
+            <summary>
+            Производителью
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Models.Order">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Models.OrderItem">
+            <summary>
+            Товар и его количество в конкретном заказе.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Models.OrderStatus">
+            <summary>
+            Статус заказа.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Models.Product">
+            <summary>
+            Товарр.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Models.Role">
+            <summary>
+            Роль пользователя.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Models.Unit">
+            <summary>
+            Единица измерения товара.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Models.User">
+            <summary>
+            Пользователь системы.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Repositories.LookupRepository">
+            <summary>
+            Репозиторий для доступа к справочникам.
+            </summary>
+            <param name="connectionFactory"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.Repositories.LookupRepository.#ctor(ReadCity.DataAccess.ConnectionFactory.IDbConnectionFactory)">
+            <summary>
+            Репозиторий для доступа к справочникам.
+            </summary>
+            <param name="connectionFactory"></param>
+        </member>
+        <member name="T:ReadCity.DataAccess.Repositories.OrderRepository">
+            <summary>
+            Репозиторий для доступа к заказам и их позициям.
+            </summary>
+            <param name="connectionFactory"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.Repositories.OrderRepository.#ctor(ReadCity.DataAccess.ConnectionFactory.IDbConnectionFactory)">
+            <summary>
+            Репозиторий для доступа к заказам и их позициям.
+            </summary>
+            <param name="connectionFactory"></param>
+        </member>
+        <member name="T:ReadCity.DataAccess.Repositories.ProductRepository">
+            <summary>
+            Репозиторий для доступа к товарам в базе данных.
+            </summary>
+            <param name="connectionFactory"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.Repositories.ProductRepository.#ctor(ReadCity.DataAccess.ConnectionFactory.IDbConnectionFactory)">
+            <summary>
+            Репозиторий для доступа к товарам в базе данных.
+            </summary>
+            <param name="connectionFactory"></param>
+        </member>
+        <member name="T:ReadCity.DataAccess.Repositories.UserRepository">
+            <summary>
+            Репозиторий для доступа к пользователям системы.
+            </summary>
+            <param name="connectionFactory"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.Repositories.UserRepository.#ctor(ReadCity.DataAccess.ConnectionFactory.IDbConnectionFactory)">
+            <summary>
+            Репозиторий для доступа к пользователям системы.
+            </summary>
+            <param name="connectionFactory"></param>
+        </member>
+        <member name="T:ReadCity.DataAccess.Services.AuthService">
+            <summary>
+            Авторизация пользователя.
+            </summary>
+            <param name="userRepository"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.Services.AuthService.#ctor(ReadCity.DataAccess.Repositories.UserRepository)">
+            <summary>
+            Авторизация пользователя.
+            </summary>
+            <param name="userRepository"></param>
+        </member>
+        <member name="T:ReadCity.DataAccess.Services.OrderService">
+            <summary>
+            Оформление и обработка заказов.
+            </summary>
+            <param name="orderRepository"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.Services.OrderService.#ctor(ReadCity.DataAccess.Repositories.OrderRepository)">
+            <summary>
+            Оформление и обработка заказов.
+            </summary>
+            <param name="orderRepository"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.Services.OrderService.CreateOrder(System.Collections.Generic.IEnumerable{ReadCity.DataAccess.Models.OrderItem},System.Nullable{System.Int32})">
+            <summary>
+            Формирует и сохраняет новый заказ.
+            </summary>
+            <param name="items"></param>
+            <param name="userId"></param>
+            <returns>Возвращает новый заказ</returns>
+        </member>
+        <member name="T:ReadCity.DataAccess.Services.ProductSortField">
+            <summary>
+            Шаблон для сортировки списка товаров.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Services.ProductQuery">
+            <summary>
+            Параметры поиска, фильтрации и сортировки.
+            </summary>
+        </member>
+        <member name="T:ReadCity.DataAccess.Services.ProductService">
+            <summary>
+            Получение данных, поиск, фильтрация и сортировка товаров.
+            </summary>
+            <param name="productRepository"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.Services.ProductService.#ctor(ReadCity.DataAccess.Repositories.ProductRepository)">
+            <summary>
+            Получение данных, поиск, фильтрация и сортировка товаров.
+            </summary>
+            <param name="productRepository"></param>
+        </member>
+        <member name="M:ReadCity.DataAccess.Services.ProductService.Apply(System.Collections.Generic.IEnumerable{ReadCity.DataAccess.Models.Product},ReadCity.DataAccess.Services.ProductQuery)">
+            <summary>
+            Применяет к списку товаров поиск, фильтрацию и сортировку.
+            </summary>
+            <param name="source"></param>
+            <param name="query"></param>
+            <returns>Списк товаров после поиска, фильтрации и сортировки</returns>
+        </member>
+    </members>
+</doc>

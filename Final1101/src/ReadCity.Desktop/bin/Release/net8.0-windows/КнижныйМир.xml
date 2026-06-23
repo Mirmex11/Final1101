@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>КнижныйМир</name>
+    </assembly>
+    <members>
+        <member name="T:KnizhnyMir.Desktop.App">
+            <summary>
+            Логика взаимодействия для приложения «Книжный мир».
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:KnizhnyMir.Desktop.Helpers.ImageHelper">
+            <summary>Помогает загружать изображения товаров с учётом относительных путей.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.Helpers.ImageHelper.GetProductImage(System.String)">
+            <summary>
+            Возвращает изображение товара по имени файла. Если файл отсутствует,
+            возвращается изображение-заглушка. Используются относительные пути,
+            поэтому приложение работает и при перемещении папки.
+            </summary>
+        </member>
+        <member name="T:KnizhnyMir.Desktop.Helpers.PhotoToImageConverter">
+            <summary>Преобразует имя файла фотографии товара в изображение для отображения.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.Helpers.PhotoToImageConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <inheritdoc />
+        </member>
+        <member name="M:KnizhnyMir.Desktop.Helpers.PhotoToImageConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <inheritdoc />
+        </member>
+        <member name="T:KnizhnyMir.Desktop.Models.CartItem">
+            <summary>Позиция корзины (текущего заказа): товар и его количество.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.Models.CartItem.#ctor(KnizhnyMir.DataAccess.Models.Product)">
+            <summary>Позиция корзины (текущего заказа): товар и его количество.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Models.CartItem.Product">
+            <summary>Товар.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Models.CartItem.Quantity">
+            <summary>Количество единиц товара в заказе.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Models.CartItem.Sum">
+            <summary>Стоимость позиции с учётом количества.</summary>
+        </member>
+        <member name="E:KnizhnyMir.Desktop.Models.CartItem.PropertyChanged">
+            <inheritdoc />
+        </member>
+        <member name="T:KnizhnyMir.Desktop.Services.AppServices">
+            <summary>
+            Единая точка создания сервисов работы с базой данных для всего приложения.
+            Выбор СУБД (MS SQL или SQLite) выполняется автоматически при запуске.
+            </summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.AppServices.Products">
+            <summary>Сервис работы с товарами.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.AppServices.Orders">
+            <summary>Сервис работы с заказами.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.AppServices.Auth">
+            <summary>Сервис авторизации.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.AppServices.Lookups">
+            <summary>Репозиторий справочников.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Desktop.Services.CurrentUserSettings">
+            <summary>Данные о текущем пользователе, сохраняемые в настройках приложения.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.CurrentUserSettings.UserId">
+            <summary>Идентификатор пользователя.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.CurrentUserSettings.FullName">
+            <summary>ФИО пользователя.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.CurrentUserSettings.RoleName">
+            <summary>Название роли пользователя.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Desktop.Services.AppSettings">
+            <summary>
+            Сохраняет и загружает настройки приложения (данные текущего пользователя)
+            в файл в папке профиля пользователя.
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.Services.AppSettings.SaveCurrentUser(KnizhnyMir.DataAccess.Models.User)">
+            <summary>Сохраняет данные текущего пользователя в настройки.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.Services.AppSettings.LoadCurrentUser">
+            <summary>Загружает данные текущего пользователя из настроек или <c>null</c>.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.Services.AppSettings.ClearCurrentUser">
+            <summary>Удаляет данные текущего пользователя из настроек (выход из системы).</summary>
+        </member>
+        <member name="T:KnizhnyMir.Desktop.Services.AppState">
+            <summary>
+            Глобальное состояние приложения: текущий авторизованный пользователь
+            и текущий формируемый заказ (корзина). Хранится в одном месте,
+            чтобы быть доступным из всех окон.
+            </summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.AppState.CurrentUser">
+            <summary>Текущий авторизованный пользователь или <c>null</c> для гостя.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.AppState.Cart">
+            <summary>Текущий заказ (корзина). Все добавления выполняются в один заказ.</summary>
+        </member>
+        <member name="P:KnizhnyMir.Desktop.Services.AppState.IsManagerOrAdmin">
+            <summary>Признак того, что пользователь является менеджером или администратором.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.Services.AppState.AddToCart(KnizhnyMir.DataAccess.Models.Product)">
+            <summary>Добавляет товар в заказ или увеличивает его количество на 1.</summary>
+        </member>
+        <member name="T:KnizhnyMir.Desktop.LoginWindow">
+            <summary>Окно входа пользователя в систему.</summary>
+            <summary>
+            LoginWindow
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.LoginWindow.#ctor">
+            <summary>Создаёт окно входа.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.LoginWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:KnizhnyMir.Desktop.MainWindow">
+            <summary>Главное окно: каталог товаров с поиском, фильтрацией и сортировкой.</summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.MainWindow.#ctor">
+            <summary>Создаёт главное окно и загружает данные каталога.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:KnizhnyMir.Desktop.OrdersManagementWindow">
+            <summary>Окно работы с заказами для менеджера и администратора.</summary>
+            <summary>
+            OrdersManagementWindow
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.OrdersManagementWindow.#ctor">
+            <summary>Создаёт окно работы с заказами.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.OrdersManagementWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:KnizhnyMir.Desktop.OrderWindow">
+            <summary>Окно просмотра и оформления текущего заказа.</summary>
+            <summary>
+            OrderWindow
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.OrderWindow.#ctor">
+            <summary>Создаёт окно текущего заказа.</summary>
+        </member>
+        <member name="M:KnizhnyMir.Desktop.OrderWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

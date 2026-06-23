@@ -1,0 +1,680 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Final1101\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|d:\\final1101\\src\\readcity.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|solutionrelative:src\\readcity.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|d:\\final1101\\src\\readcity.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|solutionrelative:src\\readcity.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|d:\\final1101\\src\\readcity.api\\controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|solutionrelative:src\\readcity.api\\controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|d:\\final1101\\src\\readcity.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|solutionrelative:src\\readcity.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|d:\\final1101\\src\\readcity.api\\dtos\\apidtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|solutionrelative:src\\readcity.api\\dtos\\apidtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|d:\\final1101\\src\\readcity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148302A0-0F77-FB30-EEF0-D10DDB07585B}|src\\ReadCity.Api\\ReadCity.Api.csproj|solutionrelative:src\\readcity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\connectionfactory\\mssqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\connectionfactory\\mssqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\connectionfactory\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\connectionfactory\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\models\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\models\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\repositories\\lookuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\repositories\\lookuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\services\\productquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\services\\productquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|d:\\final1101\\src\\readcity.dataaccess\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\helpers\\phototoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\helpers\\phototoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\helpers\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\helpers\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\services\\appservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\services\\appservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\services\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\services\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\services\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\services\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\windows\\orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\windows\\orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\windows\\ordersmanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\windows\\ordersmanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|d:\\final1101\\src\\readcity.desktop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "src\\ReadCity.Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:29:58.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Api\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Api\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Api\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "src\\ReadCity.Api\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:29:55.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LookupController.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Api\\Controllers\\LookupController.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Api\\Controllers\\LookupController.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Api\\Controllers\\LookupController.cs",
+              "RelativeToolTip": "src\\ReadCity.Api\\Controllers\\LookupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:29:52.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\ReadCity.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:29:46.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiDtos.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Api\\Dtos\\ApiDtos.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Api\\Dtos\\ApiDtos.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Api\\Dtos\\ApiDtos.cs",
+              "RelativeToolTip": "src\\ReadCity.Api\\Dtos\\ApiDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:29:22.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Api\\Program.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Api\\Program.cs",
+              "RelativeToolTip": "src\\ReadCity.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:29:03.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MSSqlConnectionFactory.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\ConnectionFactory\\MSSqlConnectionFactory.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\ConnectionFactory\\MSSqlConnectionFactory.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\ConnectionFactory\\MSSqlConnectionFactory.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\ConnectionFactory\\MSSqlConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:55.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDbConnectionFactory.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\ConnectionFactory\\IDbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\ConnectionFactory\\IDbConnectionFactory.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\ConnectionFactory\\IDbConnectionFactory.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\ConnectionFactory\\IDbConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:52.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Models\\User.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\User.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:48.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Unit.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Models\\Unit.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Unit.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Models\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:44.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Models\\Role.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Role.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:42.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Models\\Product.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Product.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:39.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Models\\OrderStatus.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\OrderStatus.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Models\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:36.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Models\\OrderItem.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\OrderItem.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:34.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Models\\Order.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Order.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:31.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Manufacturer.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Manufacturer.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Models\\Manufacturer.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Manufacturer.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Models\\Manufacturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:27.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Models\\Category.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Models\\Category.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:23.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:15.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:28:03.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Repositories\\OrderRepository.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:27:34.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LookupRepository.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Repositories\\LookupRepository.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Repositories\\LookupRepository.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Repositories\\LookupRepository.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Repositories\\LookupRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:27:27.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DatabaseConfig.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\DatabaseConfig.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\DatabaseConfig.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\DatabaseConfig.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\DatabaseConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:26:32.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Services\\ProductService.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:25:43.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductQuery.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Services\\ProductQuery.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Services\\ProductQuery.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Services\\ProductQuery.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Services\\ProductQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:25:36.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Services\\OrderService.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Services\\OrderService.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:24:22.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.DataAccess\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.DataAccess\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:24:17.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Models\\CartItem.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Models\\CartItem.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:22:53.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppServices.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Services\\AppServices.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Services\\AppServices.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Services\\AppServices.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Services\\AppServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:22:47.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Services\\AppSettings.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Services\\AppSettings.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Services\\AppSettings.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Services\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:22:40.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppState.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Services\\AppState.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Services\\AppState.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Services\\AppState.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Services\\AppState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:22:35.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\OrderWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Windows\\OrderWindow.xaml.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\OrderWindow.xaml.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Windows\\OrderWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:20:45.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrdersManagementWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\OrdersManagementWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Windows\\OrdersManagementWindow.xaml.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\OrdersManagementWindow.xaml.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Windows\\OrdersManagementWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:20:32.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAADwvwoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:20:15.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ImageHelper.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Helpers\\ImageHelper.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Helpers\\ImageHelper.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Helpers\\ImageHelper.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Helpers\\ImageHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T15:45:02.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PhotoToImageConverter.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Helpers\\PhotoToImageConverter.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Helpers\\PhotoToImageConverter.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Helpers\\PhotoToImageConverter.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Helpers\\PhotoToImageConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T15:45:06.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-23T15:45:27.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T15:45:47.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\App.xaml",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\App.xaml",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\App.xaml",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-23T15:45:14.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Windows\\MainWindow.xaml",
+              "ToolTip": "D:\\Final1101\\src\\ReadCity.Desktop\\Windows\\MainWindow.xaml",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-23T14:15:24.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReadCity.Api</name>
+    </assembly>
+    <members>
+        <member name="T:ReadCity.Api.Controllers.AuthController">
+            <summary>
+            API авторизации пользователей.
+            </summary>
+            <param name="authService"></param>
+        </member>
+        <member name="M:ReadCity.Api.Controllers.AuthController.#ctor(ReadCity.DataAccess.Services.AuthService)">
+            <summary>
+            API авторизации пользователей.
+            </summary>
+            <param name="authService"></param>
+        </member>
+        <member name="T:ReadCity.Api.Controllers.LookupController">
+            <summary>
+            API для получения справочных данных.
+            </summary>
+            <param name="lookupRepository"></param>
+        </member>
+        <member name="M:ReadCity.Api.Controllers.LookupController.#ctor(ReadCity.DataAccess.Repositories.LookupRepository)">
+            <summary>
+            API для получения справочных данных.
+            </summary>
+            <param name="lookupRepository"></param>
+        </member>
+        <member name="T:ReadCity.Api.Controllers.OrdersController">
+            <summary>
+            API для получения и редактирования заказов.
+            </summary>
+            <param name="orderService"></param>
+        </member>
+        <member name="M:ReadCity.Api.Controllers.OrdersController.#ctor(ReadCity.DataAccess.Services.OrderService)">
+            <summary>
+            API для получения и редактирования заказов.
+            </summary>
+            <param name="orderService"></param>
+        </member>
+        <member name="T:ReadCity.Api.Controllers.ProductsController">
+            <summary>
+            API для получения данных о товарах.
+            </summary>
+            <param name="productService"></param>
+        </member>
+        <member name="M:ReadCity.Api.Controllers.ProductsController.#ctor(ReadCity.DataAccess.Services.ProductService)">
+            <summary>
+            API для получения данных о товарах.
+            </summary>
+            <param name="productService"></param>
+        </member>
+        <member name="T:ReadCity.Api.Dtos.LoginRequest">
+            <summary>
+            Запрос на вход в систему.
+            </summary>
+            <param name="Login"></param>
+            <param name="Password"></param>
+        </member>
+        <member name="M:ReadCity.Api.Dtos.LoginRequest.#ctor(System.String,System.String)">
+            <summary>
+            Запрос на вход в систему.
+            </summary>
+            <param name="Login"></param>
+            <param name="Password"></param>
+        </member>
+        <member name="P:ReadCity.Api.Dtos.LoginRequest.Login">
+            <summary></summary>
+        </member>
+        <member name="P:ReadCity.Api.Dtos.LoginRequest.Password">
+            <summary></summary>
+        </member>
+        <member name="T:ReadCity.Api.Dtos.OrderItemRequest">
+            <summary>
+            Позиция заказа в запросе на создание заказа.
+            </summary>
+            <param name="ProductArticle"></param>
+            <param name="Quantity"></param>
+        </member>
+        <member name="M:ReadCity.Api.Dtos.OrderItemRequest.#ctor(System.String,System.Int32)">
+            <summary>
+            Позиция заказа в запросе на создание заказа.
+            </summary>
+            <param name="ProductArticle"></param>
+            <param name="Quantity"></param>
+        </member>
+        <member name="P:ReadCity.Api.Dtos.OrderItemRequest.ProductArticle">
+            <summary></summary>
+        </member>
+        <member name="P:ReadCity.Api.Dtos.OrderItemRequest.Quantity">
+            <summary></summary>
+        </member>
+        <member name="T:ReadCity.Api.Dtos.CreateOrderRequest">
+            <summary>
+            Запрос на создание нового заказа.
+            </summary>
+            <param name="UserId"></param>
+            <param name="Items"></param>
+        </member>
+        <member name="M:ReadCity.Api.Dtos.CreateOrderRequest.#ctor(System.Nullable{System.Int32},System.Collections.Generic.List{ReadCity.Api.Dtos.OrderItemRequest})">
+            <summary>
+            Запрос на создание нового заказа.
+            </summary>
+            <param name="UserId"></param>
+            <param name="Items"></param>
+        </member>
+        <member name="P:ReadCity.Api.Dtos.CreateOrderRequest.UserId">
+            <summary></summary>
+        </member>
+        <member name="P:ReadCity.Api.Dtos.CreateOrderRequest.Items">
+            <summary></summary>
+        </member>
+        <member name="T:ReadCity.Api.Dtos.UpdateOrderRequest">
+            <summary>
+            Запрос на обновление даты доставки и статуса заказа.
+            </summary>
+            <param name="DeliveryDate"></param>
+            <param name="StatusId"></param>
+        </member>
+        <member name="M:ReadCity.Api.Dtos.UpdateOrderRequest.#ctor(System.Nullable{System.DateTime},System.Int32)">
+            <summary>
+            Запрос на обновление даты доставки и статуса заказа.
+            </summary>
+            <param name="DeliveryDate"></param>
+            <param name="StatusId"></param>
+        </member>
+        <member name="P:ReadCity.Api.Dtos.UpdateOrderRequest.DeliveryDate">
+            <summary></summary>
+        </member>
+        <member name="P:ReadCity.Api.Dtos.UpdateOrderRequest.StatusId">
+            <summary></summary>
+        </member>
+    </members>
+</doc>

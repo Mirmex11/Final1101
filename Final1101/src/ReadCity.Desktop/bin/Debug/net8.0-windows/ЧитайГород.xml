@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ЧитайГород</name>
+    </assembly>
+    <members>
+        <member name="T:ReadCity.Desktop.App">
+            <summary>
+            Логика взаимодействия для приложения «Книжный мир».
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:ReadCity.Desktop.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:ReadCity.Desktop.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:ReadCity.Desktop.Helpers.ImageHelper">
+            <summary>
+            Помощь в загрузке фото товаров.
+            </summary>
+        </member>
+        <member name="M:ReadCity.Desktop.Helpers.ImageHelper.GetProductImage(System.String)">
+            <summary>
+            Возвращает фото товара по имени файла. Если файла нет, возвращает заглушку.
+            </summary>
+            <param name="photo"></param>
+            <returns>фото товара</returns>
+        </member>
+        <member name="T:ReadCity.Desktop.Helpers.PhotoToImageConverter">
+            <summary>
+            Преобразует имя файла фото товара в изображение.
+            </summary>
+        </member>
+        <member name="T:ReadCity.Desktop.Models.CartItem">
+            <summary>
+            Хранит информацию о товаре и его количестве.
+            </summary>
+            <param name="product"></param>
+        </member>
+        <member name="M:ReadCity.Desktop.Models.CartItem.#ctor(ReadCity.DataAccess.Models.Product)">
+            <summary>
+            Хранит информацию о товаре и его количестве.
+            </summary>
+            <param name="product"></param>
+        </member>
+        <member name="T:ReadCity.Desktop.Services.AppServices">
+            <summary>
+            Создания сервисов для работы с бд.
+            </summary>
+        </member>
+        <member name="T:ReadCity.Desktop.Services.CurrentUserSettings">
+            <summary>
+            Данные о текущем пользователе, сохраняемые в настройках приложения.
+            </summary>
+        </member>
+        <member name="T:ReadCity.Desktop.Services.AppSettings">
+            <summary>
+            Сохраняет и загружает настройки приложения для текущего пользователя.
+            </summary>
+        </member>
+        <member name="T:ReadCity.Desktop.Services.AppState">
+            <summary>
+            Хранит текущего авторизованнго пользователя и текущий заказ.
+            </summary>
+        </member>
+        <member name="T:ReadCity.Desktop.LoginWindow">
+            <summary>
+            Код окна авторизации пользователя.
+            </summary>
+            <summary>
+            LoginWindow
+            </summary>
+        </member>
+        <member name="M:ReadCity.Desktop.LoginWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ReadCity.Desktop.MainWindow">
+            <summary>
+            Каталог товаров с поиском, фильтрацией и сортировкой.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:ReadCity.Desktop.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ReadCity.Desktop.OrdersManagementWindow">
+            <summary>
+            Окно работы с заказами.
+            </summary>
+            <summary>
+            OrdersManagementWindow
+            </summary>
+        </member>
+        <member name="M:ReadCity.Desktop.OrdersManagementWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ReadCity.Desktop.OrderWindow">
+            <summary>
+            Окно оформления текущего заказа.
+            </summary>
+            <summary>
+            OrderWindow
+            </summary>
+        </member>
+        <member name="M:ReadCity.Desktop.OrderWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

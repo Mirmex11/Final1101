@@ -1,0 +1,194 @@
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\1.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\10.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\11.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\12.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\13.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\14.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\15.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\16.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\17.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\18.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\19.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\2.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\20.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\3.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\4.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\5.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\6.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\7.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\8.jpg
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.exe
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.deps.json
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.runtimeconfig.json
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.pdb
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.xml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Dapper.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Data.SqlClient.Internal.Logging.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\KnizhnyMir.DataAccess.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\KnizhnyMir.DataAccess.pdb
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\KnizhnyMir.DataAccess.xml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\LoginWindow.baml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\OrdersManagementWindow.baml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\OrderWindow.baml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\LoginWindow.g.cs
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\MainWindow.g.cs
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\OrdersManagementWindow.g.cs
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\OrderWindow.g.cs
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\App.g.cs
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир_Content.g.cs
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир_MarkupCompile.cache
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир_MarkupCompile.lref
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\App.baml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\MainWindow.baml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир.g.resources
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyM.43371EE5.Up2Date
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\refint\КнижныйМир.dll
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир.xml
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир.pdb
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Итоговая работа\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\ref\КнижныйМир.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\1.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\10.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\11.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\12.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\13.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\14.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\15.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\16.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\17.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\18.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\19.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\2.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\20.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\3.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\4.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\5.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\6.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\7.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Resources\Products\8.jpg
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.exe
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.deps.json
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.runtimeconfig.json
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.pdb
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\КнижныйМир.xml
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Dapper.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Data.SqlClient.Internal.Logging.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\KnizhnyMir.DataAccess.dll
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\KnizhnyMir.DataAccess.pdb
+D:\Final1101\src\KnizhnyMir.Desktop\bin\Release\net8.0-windows\KnizhnyMir.DataAccess.xml
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.csproj.AssemblyReference.cache
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\LoginWindow.baml
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\OrdersManagementWindow.baml
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\OrderWindow.baml
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\LoginWindow.g.cs
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\MainWindow.g.cs
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\OrdersManagementWindow.g.cs
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\OrderWindow.g.cs
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\App.g.cs
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир_Content.g.cs
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир_MarkupCompile.cache
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир_MarkupCompile.lref
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\App.baml
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\Windows\MainWindow.baml
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир.g.resources
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.GeneratedMSBuildEditorConfig.editorconfig
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.AssemblyInfoInputs.cache
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.AssemblyInfo.cs
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.csproj.CoreCompileInputs.cache
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyM.43371EE5.Up2Date
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир.dll
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\refint\КнижныйМир.dll
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир.xml
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\КнижныйМир.pdb
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\KnizhnyMir.Desktop.genruntimeconfig.cache
+D:\Final1101\src\KnizhnyMir.Desktop\obj\Release\net8.0-windows\ref\КнижныйМир.dll

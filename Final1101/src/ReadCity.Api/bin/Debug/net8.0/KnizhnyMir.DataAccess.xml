@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KnizhnyMir.DataAccess</name>
+    </assembly>
+    <members>
+        <member name="T:KnizhnyMir.DataAccess.ConnectionFactory.IDbConnectionFactory">
+            <summary>
+            Фабрика подключений к базе данных. Скрывает от вызывающего кода
+            конкретную СУБД (MS SQL Server или SQLite).
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.ConnectionFactory.IDbConnectionFactory.CreateConnection">
+            <summary>Создаёт новое подключение к базе данных.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.ConnectionFactory.MSSqlConnectionFactory">
+            <summary>
+            Фабрика подключений к серверу MS SQL Server.
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.ConnectionFactory.MSSqlConnectionFactory.#ctor(System.String)">
+            <summary>
+            Фабрика подключений к серверу MS SQL Server.
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.ConnectionFactory.MSSqlConnectionFactory.CreateConnection">
+            <inheritdoc />
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.DatabaseConfig">
+            <summary>
+            Глобальные настройки подключения к базе данных приложения «Книжный мир».
+            Параметры соответствуют учебному серверу MS SQL (псевдоним «mssql»).
+            </summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.DatabaseConfig.Server">
+            <summary>Адрес сервера MS SQL.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.DatabaseConfig.Database">
+            <summary>Имя базы данных.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.DatabaseConfig.UserId">
+            <summary>Логин для SQL-аутентификации.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.DatabaseConfig.Password">
+            <summary>Пароль для SQL-аутентификации.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.DatabaseConfig.ConnectionString">
+            <summary>Строка подключения к MS SQL Server.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.DatabaseConfig.CreateFactory">
+            <summary>Создаёт фабрику подключений к серверу MS SQL.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.DatabaseConfig.TestConnection">
+            <summary>
+            Проверяет доступность сервера MS SQL, открывая тестовое подключение.
+            </summary>
+            <returns><c>true</c>, если подключение успешно установлено.</returns>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Models.Category">
+            <summary>Категория товара (художественная литература, хрестоматия и т.д.).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Category.Id">
+            <summary>Идентификатор категории.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Category.Name">
+            <summary>Название категории.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Models.Manufacturer">
+            <summary>Производитель (издательство) товара.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Manufacturer.Id">
+            <summary>Идентификатор производителя.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Manufacturer.Name">
+            <summary>Название производителя.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Models.Order">
+            <summary>
+            Заказ. Номер заказа является первичным ключом. Заказ может быть оформлен
+            гостем (тогда <see cref="P:KnizhnyMir.DataAccess.Models.Order.UserId"/> не заполнен) или авторизованным клиентом.
+            </summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.Number">
+            <summary>Номер заказа (первичный ключ).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.OrderDate">
+            <summary>Дата оформления заказа.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.DeliveryDate">
+            <summary>Дата доставки заказа (может отсутствовать).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.PickupCode">
+            <summary>Трёхзначный код для получения заказа.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.StatusId">
+            <summary>Идентификатор статуса заказа.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.UserId">
+            <summary>Идентификатор клиента, оформившего заказ (для гостя не заполнен).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.StatusName">
+            <summary>Название статуса заказа (заполняется при выборке).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.ClientName">
+            <summary>ФИО клиента, оформившего заказ (заполняется при выборке).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.Items">
+            <summary>Позиции заказа (заполняются при выборке).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Order.TotalSum">
+            <summary>Итоговая сумма заказа.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Models.OrderItem">
+            <summary>Позиция заказа: товар и его количество в конкретном заказе.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.OrderItem.Id">
+            <summary>Идентификатор позиции заказа.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.OrderItem.OrderNumber">
+            <summary>Номер заказа, которому принадлежит позиция.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.OrderItem.ProductArticle">
+            <summary>Артикул заказанного товара.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.OrderItem.Quantity">
+            <summary>Количество единиц товара.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.OrderItem.ProductName">
+            <summary>Наименование товара (заполняется при выборке).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.OrderItem.Price">
+            <summary>Цена товара за единицу с учётом скидки (заполняется при выборке).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.OrderItem.Sum">
+            <summary>Стоимость позиции (цена, умноженная на количество).</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Models.OrderStatus">
+            <summary>Статус заказа (новый, в обработке, завершён).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.OrderStatus.Id">
+            <summary>Идентификатор статуса.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.OrderStatus.Name">
+            <summary>Название статуса.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Models.Product">
+            <summary>
+            Товар (книга). Артикул является естественным первичным ключом.
+            Поля <see cref="P:KnizhnyMir.DataAccess.Models.Product.CategoryName"/>, <see cref="P:KnizhnyMir.DataAccess.Models.Product.ManufacturerName"/> и
+            <see cref="P:KnizhnyMir.DataAccess.Models.Product.UnitName"/> заполняются при выборке соединением со справочниками.
+            </summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.Article">
+            <summary>Артикул товара (первичный ключ).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.Name">
+            <summary>Наименование товара.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.Description">
+            <summary>Описание товара.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.Author">
+            <summary>Автор книги.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.Price">
+            <summary>Цена товара за единицу.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.Discount">
+            <summary>Действующая скидка в процентах.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.StockQuantity">
+            <summary>Количество товара на складе.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.Photo">
+            <summary>Имя файла с фотографией товара.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.UnitId">
+            <summary>Идентификатор единицы измерения.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.CategoryId">
+            <summary>Идентификатор категории.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.ManufacturerId">
+            <summary>Идентификатор производителя.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.CategoryName">
+            <summary>Название категории (заполняется при выборке).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.ManufacturerName">
+            <summary>Название производителя (заполняется при выборке).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Product.UnitName">
+            <summary>Название единицы измерения (заполняется при выборке).</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Models.Role">
+            <summary>Роль пользователя системы (администратор, менеджер, клиент).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Role.Id">
+            <summary>Идентификатор роли.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Role.Name">
+            <summary>Название роли.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Models.Unit">
+            <summary>Единица измерения товара (например, «шт.»).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Unit.Id">
+            <summary>Идентификатор единицы измерения.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.Unit.Name">
+            <summary>Название единицы измерения.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Models.User">
+            <summary>Пользователь системы. Поле <see cref="P:KnizhnyMir.DataAccess.Models.User.RoleName"/> заполняется соединением с ролью.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.User.Id">
+            <summary>Идентификатор пользователя.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.User.FullName">
+            <summary>Фамилия, имя и отчество пользователя.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.User.Login">
+            <summary>Логин для входа в систему.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.User.Password">
+            <summary>Пароль пользователя.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.User.RoleId">
+            <summary>Идентификатор роли пользователя.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Models.User.RoleName">
+            <summary>Название роли (заполняется при выборке).</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Repositories.LookupRepository">
+            <summary>Репозиторий для доступа к справочникам (категории, производители и т.д.).</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.LookupRepository.#ctor(KnizhnyMir.DataAccess.ConnectionFactory.IDbConnectionFactory)">
+            <summary>Репозиторий для доступа к справочникам (категории, производители и т.д.).</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.LookupRepository.GetCategories">
+            <summary>Возвращает список всех категорий.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.LookupRepository.GetManufacturers">
+            <summary>Возвращает список всех производителей.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.LookupRepository.GetUnits">
+            <summary>Возвращает список всех единиц измерения.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.LookupRepository.GetOrderStatuses">
+            <summary>Возвращает список всех статусов заказа.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.LookupRepository.GetRoles">
+            <summary>Возвращает список всех ролей пользователей.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Repositories.OrderRepository">
+            <summary>Репозиторий для доступа к заказам и их позициям.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.OrderRepository.#ctor(KnizhnyMir.DataAccess.ConnectionFactory.IDbConnectionFactory)">
+            <summary>Репозиторий для доступа к заказам и их позициям.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.OrderRepository.GetNextNumber">
+            <summary>Возвращает номер для нового заказа (максимальный существующий + 1).</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.OrderRepository.Create(KnizhnyMir.DataAccess.Models.Order)">
+            <summary>
+            Сохраняет заказ вместе с его позициями в одной транзакции.
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.OrderRepository.GetByNumber(System.Int32)">
+            <summary>Возвращает заказ с указанным номером вместе с его позициями.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.OrderRepository.GetAll">
+            <summary>Возвращает список всех заказов (без детализации позиций).</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.OrderRepository.UpdateDeliveryAndStatus(System.Int32,System.Nullable{System.DateTime},System.Int32)">
+            <summary>Обновляет дату доставки и статус заказа.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Repositories.ProductRepository">
+            <summary>Репозиторий для доступа к товарам в базе данных.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.ProductRepository.#ctor(KnizhnyMir.DataAccess.ConnectionFactory.IDbConnectionFactory)">
+            <summary>Репозиторий для доступа к товарам в базе данных.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.ProductRepository.GetAll">
+            <summary>Возвращает все товары вместе со справочными названиями.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.ProductRepository.GetByArticle(System.String)">
+            <summary>Возвращает товар по его артикулу или <c>null</c>, если товар не найден.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.ProductRepository.GetTotalCount">
+            <summary>Возвращает общее количество товаров в базе данных.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Repositories.UserRepository">
+            <summary>Репозиторий для доступа к пользователям системы.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.UserRepository.#ctor(KnizhnyMir.DataAccess.ConnectionFactory.IDbConnectionFactory)">
+            <summary>Репозиторий для доступа к пользователям системы.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.UserRepository.FindByCredentials(System.String,System.String)">
+            <summary>
+            Ищет пользователя по логину и паролю.
+            </summary>
+            <returns>Найденный пользователь или <c>null</c>, если данные неверны.</returns>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.UserRepository.GetById(System.Int32)">
+            <summary>Возвращает пользователя по идентификатору.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Repositories.UserRepository.GetAll">
+            <summary>Возвращает список всех пользователей.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Services.AuthService">
+            <summary>Бизнес-логика авторизации пользователей.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.AuthService.#ctor(KnizhnyMir.DataAccess.Repositories.UserRepository)">
+            <summary>Бизнес-логика авторизации пользователей.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.AuthService.Login(System.String,System.String)">
+            <summary>
+            Выполняет вход в систему по логину и паролю.
+            </summary>
+            <returns>Пользователь при успешном входе или <c>null</c>, если данные неверны.</returns>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Services.OrderService">
+            <summary>Бизнес-логика оформления и обработки заказов.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.OrderService.#ctor(KnizhnyMir.DataAccess.Repositories.OrderRepository)">
+            <summary>Бизнес-логика оформления и обработки заказов.</summary>
+        </member>
+        <member name="F:KnizhnyMir.DataAccess.Services.OrderService.StatusNew">
+            <summary>Идентификатор статуса «Новый».</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.OrderService.CreateOrder(System.Collections.Generic.IEnumerable{KnizhnyMir.DataAccess.Models.OrderItem},System.Nullable{System.Int32})">
+            <summary>
+            Формирует и сохраняет новый заказ из переданных позиций.
+            Заказу присваивается следующий номер, статус «Новый», текущая дата
+            и случайный трёхзначный код получения.
+            </summary>
+            <param name="items">Позиции заказа (артикул и количество).</param>
+            <param name="userId">Клиент, оформивший заказ; <c>null</c> для гостя.</param>
+            <returns>Сохранённый заказ с присвоенным номером и кодом получения.</returns>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.OrderService.GeneratePickupCode">
+            <summary>Генерирует случайный трёхзначный код получения заказа.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.OrderService.GetOrder(System.Int32)">
+            <summary>Возвращает заказ по номеру вместе с его позициями.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.OrderService.GetAllOrders">
+            <summary>Возвращает список всех заказов.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.OrderService.UpdateDeliveryAndStatus(System.Int32,System.Nullable{System.DateTime},System.Int32)">
+            <summary>Обновляет дату доставки и статус заказа.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Services.ProductSortField">
+            <summary>Поле, по которому выполняется сортировка списка товаров.</summary>
+        </member>
+        <member name="F:KnizhnyMir.DataAccess.Services.ProductSortField.Name">
+            <summary>Сортировка по наименованию.</summary>
+        </member>
+        <member name="F:KnizhnyMir.DataAccess.Services.ProductSortField.Price">
+            <summary>Сортировка по цене.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Services.ProductQuery">
+            <summary>
+            Параметры поиска, фильтрации и сортировки списка товаров.
+            Все параметры применяются совместно.
+            </summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Services.ProductQuery.SearchText">
+            <summary>Текст для поиска по наименованию товара (без учёта регистра).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Services.ProductQuery.ManufacturerId">
+            <summary>Идентификатор производителя для фильтрации (<c>null</c> — все производители).</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Services.ProductQuery.MinPrice">
+            <summary>Минимальная цена товара.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Services.ProductQuery.MaxPrice">
+            <summary>Максимальная цена товара.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Services.ProductQuery.SortField">
+            <summary>Поле сортировки.</summary>
+        </member>
+        <member name="P:KnizhnyMir.DataAccess.Services.ProductQuery.SortDescending">
+            <summary>Признак сортировки по убыванию.</summary>
+        </member>
+        <member name="T:KnizhnyMir.DataAccess.Services.ProductService">
+            <summary>
+            Бизнес-логика работы с товарами: получение данных, поиск,
+            фильтрация и сортировка. Не зависит от способа отображения.
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.ProductService.#ctor(KnizhnyMir.DataAccess.Repositories.ProductRepository)">
+            <summary>
+            Бизнес-логика работы с товарами: получение данных, поиск,
+            фильтрация и сортировка. Не зависит от способа отображения.
+            </summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.ProductService.GetAll">
+            <summary>Возвращает все товары из базы данных.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.ProductService.GetTotalCount">
+            <summary>Возвращает общее количество товаров в базе данных.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.ProductService.GetByArticle(System.String)">
+            <summary>Возвращает товар по артикулу.</summary>
+        </member>
+        <member name="M:KnizhnyMir.DataAccess.Services.ProductService.Apply(System.Collections.Generic.IEnumerable{KnizhnyMir.DataAccess.Models.Product},KnizhnyMir.DataAccess.Services.ProductQuery)">
+            <summary>
+            Применяет к набору товаров поиск, фильтрацию и сортировку согласно
+            переданным параметрам. Все условия применяются совместно.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\79025\\Videos\\NVIDIA\\Final1101\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|c:\\users\\79025\\videos\\nvidia\\final1101\\src\\readcity.desktop\\windows\\orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\windows\\orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|c:\\users\\79025\\videos\\nvidia\\final1101\\src\\readcity.desktop\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|c:\\users\\79025\\videos\\nvidia\\final1101\\src\\readcity.desktop\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{875C375C-3050-0930-D5F7-44BE0FB1C742}|src\\ReadCity.Desktop\\ReadCity.Desktop.csproj|solutionrelative:src\\readcity.desktop\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|c:\\users\\79025\\videos\\nvidia\\final1101\\src\\readcity.dataaccess\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D3A7B-2D41-F227-902C-A5641C90035A}|src\\ReadCity.DataAccess\\ReadCity.DataAccess.csproj|solutionrelative:src\\readcity.dataaccess\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Videos\\NVIDIA\\Final1101\\src\\ReadCity.Desktop\\Windows\\OrderWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Windows\\OrderWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\79025\\Videos\\NVIDIA\\Final1101\\src\\ReadCity.Desktop\\Windows\\OrderWindow.xaml.cs",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Windows\\OrderWindow.xaml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T17:48:54.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\79025\\Videos\\NVIDIA\\Final1101\\src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\79025\\Videos\\NVIDIA\\Final1101\\src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Windows\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-23T17:48:41.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\79025\\Videos\\NVIDIA\\Final1101\\src\\ReadCity.Desktop\\Windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "src\\ReadCity.Desktop\\Windows\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\79025\\Videos\\NVIDIA\\Final1101\\src\\ReadCity.Desktop\\Windows\\MainWindow.xaml",
+              "RelativeToolTip": "src\\ReadCity.Desktop\\Windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-23T17:38:31.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseConfig.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Videos\\NVIDIA\\Final1101\\src\\ReadCity.DataAccess\\DatabaseConfig.cs",
+              "RelativeDocumentMoniker": "src\\ReadCity.DataAccess\\DatabaseConfig.cs",
+              "ToolTip": "C:\\Users\\79025\\Videos\\NVIDIA\\Final1101\\src\\ReadCity.DataAccess\\DatabaseConfig.cs",
+              "RelativeToolTip": "src\\ReadCity.DataAccess\\DatabaseConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T17:17:58.407Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
